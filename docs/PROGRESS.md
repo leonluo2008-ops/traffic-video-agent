@@ -60,6 +60,38 @@ Stage 4: AI 按"目标文稿时间轴 + 音频时间轴"对录屏初检
 
 **Phase 1: Brainstorming**（powerflow 流程）。需求已梳理，技术栈分层已确认，待拍板剩余问题后进入 Plan。
 
+## indexTTS-2.5 PC 部署状态（2026-08-16）
+
+**部署方式**：SSH 代部署环境（用户定），模型/辅助模型由助手经 ModelScope/hf-mirror 下载。
+
+**已完成**：
+- 节点 `ComfyUI-Index-TTS` 克隆到 `custom_nodes/`，ComfyUI 重启后 13 个 IndexTTS 节点全部加载
+- 主模型 `IndexTTS-2.5` 8/8 文件齐全（config/feat1/feat2/gpt.pth/codec.pth/s2mel.pth/wav2vec2bert_stats/tiktoken）
+- w2v-bert-2.0 语音特征模型完整（580M 参数，Wav2Vec2BertModel 加载 OK）
+- BigVGAN 声码器 config.json 已补全（ModelScope 无此仓库，需从 hf-mirror 手动补）
+- 推理依赖全部装齐（wetext 替代 pynini，audiotools 训练用跳过）
+
+**踩坑记录（关键！）**：
+1. requirements.txt 中文注释 → GBK UnicodeDecodeError，用 `-X utf8` 解决
+2. descript-audiotools GitHub clone 受 PYTHONUTF8 影响失败 → 训练用跳过
+3. pynini Windows 无 pip 源 → front.py 优先 wetext，免装
+4. **w2v-bert-2.0 需整仓**（model.safetensors 2.3G + conformer_shaw.pt 1.1G），ModelScope 下载可能卡文件锁 → 用 hf-mirror 手动 curl 补
+5. **BigVGAN 不在 ModelScope**（404）→ 必须从 hf-mirror 手动下 config.json + bigvgan_generator.pt
+6. scp 传 PC 中文路径 → 用正斜杠 `C:/Users/...`
+7. 模型目录 `ComfyUI/models/IndexTTS-2.5/`（带点5）
+
+**待用户操作**：~~ComfyUI 上跑测试工作流，报错找助手。~~（已跑通，见下）
+
+**🚀 TTS 2.5 引擎实测通过（2026-08-16 14:10）**：
+- 在 ComfyUI 上成功生成样音 `tts2_5_base_00001.flac`（0.31MB），PC 端 TTS 2.5 推理无问题
+- 样音已拉取到本地 `ref/成片范例/tts2_5_验证样音.flac`
+
+**关键踩坑补充（audiotools 是硬依赖！）**：
+- 之前判断"audiotools 训练专用、推理不需要"**是错的**——IndexTTS-2.5 的 s2mel/DAC 模块（`dac/__init__.py` 顶层 `import audiotools`）硬依赖它
+- PyPI 无此包，须从 GitHub 编译装：`pip install --proxy http://127.0.0.1:7897 "git+https://github.com/descriptinc/audiotools@0.7.4#egg=descript-audiotools"`（PC 代理 7897）
+- 装完会重装 psutil 等依赖 → **正在运行的 ComfyUI 会崩，须重启**
+- requirements.txt 里 `==0.7.2` 与 `git 0.7.4` 冲突会导致启动器崩溃 → 已注释 `==0.7.2` 行
+
 ## Git 状态
 
 - 分支 main，与 origin/main 一致
