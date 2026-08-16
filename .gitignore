@@ -1,11 +1,2 @@
-__pycache__/
-*.pyc
-.venv/
-venv/
-projects/
-output/
-*.mp4
-*.mp3
-*.wav
-.env
-.DS_Store
+ref/
+test-assets/
