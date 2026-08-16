@@ -334,10 +334,10 @@
       "time_end": 50.93,
       "orig_line": "不用再犹豫了",
       "orig_chars": 6,
-      "action": "keep_original",
-      "target_line": null,
-      "target_chars": null,
-      "char_diff": 0,
+      "action": "rewrite",
+      "target_line": "解锁更多建模知识。",
+      "target_chars": 8,
+      "char_diff": 2,
       "emotion": "最终落锤"
     }
   ]

@@ -27,7 +27,7 @@ PUNCT_RE = re.compile(r'[，。！？…、；：""\'''（）()\s—\-]')
 SEG_RE = re.compile(r'【片段([A-Z])】(\S+)\s+(\S+)\s+([\d\.]+)(?:-([\d\.]+))?s?')
 ORIG_RE = re.compile(r'原台词：[""]([^""]+)[""]')
 TARGET_RE = re.compile(r'目标台词：[""]([^""]+)[""]')
-KEEP_RE = re.compile(r'原声保留')
+KEEP_RE = re.compile(r'目标台词：[""]?原声保留')
 EMO_RE = re.compile(r'情绪语境：(\S+)\s*→')
 
 
