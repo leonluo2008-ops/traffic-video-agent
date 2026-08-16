@@ -98,8 +98,8 @@ def validate(segs: list[dict]) -> bool:
 
 def main():
     root = Path(__file__).resolve().parent.parent
-    md = Path(sys.argv[1]) if len(sys.argv) > 1 else root / 'docs/verification/测试二-智能编排决策.md'
-    out = Path(sys.argv[2]) if len(sys.argv) > 2 else root / 'docs/verification/编排稿元数据.json'
+    md = Path(sys.argv[1]).resolve() if len(sys.argv) > 1 else root / 'docs/verification/测试二-智能编排决策.md'
+    out = Path(sys.argv[2]).resolve() if len(sys.argv) > 2 else root / 'docs/verification/编排稿元数据.json'
 
     segs = parse(md)
     if not segs:
