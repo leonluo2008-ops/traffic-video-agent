@@ -7,16 +7,16 @@
     {
       "seg_id": "A",
       "role": "至尊宝",
-      "emotion_span": "疑问/开场",
+      "emotion_span": "顿悟/宣告",
       "time_start": 0.97,
       "time_end": 2.67,
       "orig_line": "哎呀你怎么躲在这里啊",
       "orig_chars": 10,
       "action": "rewrite",
-      "target_line": "SP里想做鱼鳞焊从何下手",
-      "target_chars": 12,
-      "char_diff": 2,
-      "emotion": "疑问开场"
+      "target_line": "紫霞！SP里鱼鳞焊我悟了。",
+      "target_chars": 11,
+      "char_diff": 1,
+      "emotion": "找到紫霞+顿悟兴奋"
     },
     {
       "seg_id": "B",
