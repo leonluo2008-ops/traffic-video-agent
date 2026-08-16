@@ -13,9 +13,9 @@
       "orig_line": "如果上天能够给我一个再来一次的机会",
       "orig_chars": 17,
       "action": "rewrite",
-      "target_line": "紫霞，若想那鱼鳞焊成形，该从何处下手？",
-      "target_chars": 16,
-      "char_diff": -1,
+      "target_line": "紫霞，想在SP里做出鱼鳞焊，该从何处下手？",
+      "target_chars": 18,
+      "char_diff": 1,
       "emotion": "深情恳求"
     },
     {
@@ -27,9 +27,9 @@
       "orig_line": "那么你怎么向你娘子交代？",
       "orig_chars": 11,
       "action": "rewrite",
-      "target_line": "那么这鱼鳞焊，我该怎么做才好？",
-      "target_chars": 13,
-      "char_diff": 2,
+      "target_line": "这个我不懂，你可要仔细教我",
+      "target_chars": 12,
+      "char_diff": 1,
       "emotion": "温柔关切"
     },
     {
@@ -38,7 +38,7 @@
       "emotion_span": "坚定/坦诚",
       "time_start": 90.0,
       "time_end": 99.0,
-      "orig_line": "一定要交代！所以我一定要拿回那个月光宝盒……",
+      "orig_line": "一定要交代！所以我一定要拿回那个月光宝盒",
       "orig_chars": 19,
       "action": "rewrite",
       "target_line": "先新建个材质图层，再添一个绘制图层便是。",
@@ -52,7 +52,7 @@
       "emotion_span": "决然/担当",
       "time_start": 100.0,
       "time_end": 110.0,
-      "orig_line": "我不曾管别人怎么说我，我一个人承担下来。",
+      "orig_line": "我不曾管别人怎么说我，我一个人承担下来",
       "orig_chars": 18,
       "action": "rewrite",
       "target_line": "再寻那鱼鳞焊的笔刷，沿焊缝路径勾勒描画。",
