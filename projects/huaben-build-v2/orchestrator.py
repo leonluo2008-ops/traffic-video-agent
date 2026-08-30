@@ -205,7 +205,6 @@ def mix():
             fl.append(f"[{ii}:a]asetpts=PTS-STARTPTS[{name}]")
     fl.append("".join(f"[{s[0]}]" for s in segs) + f"concat=n={len(segs)}:v=0:a=1[aout2]")
     script2 = os.path.join(BASE, "mix_filter2.txt")
-    open(script2, "w", runs and "", encoding="utf-8")  # placeholder, 覆盖如下
     open(script2, "w", encoding="utf-8").write(";".join(fl))
     cmd2 = [FF, "-y"]
     for p in inputs2: cmd2 += ["-i", p]
