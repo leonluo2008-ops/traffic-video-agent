@@ -1,6 +1,6 @@
 {
  "source": "assets/source/tangbohu_duichang_original.mp4",
- "total": 181.7,
+ "total": 56,
  "slots": [
   {
    "id": "N01",
@@ -545,9 +545,9 @@
   {
    "id": "N31",
    "act": "第四幕 惺惺相惜（蒙太奇段，槽时间为近似值，贴轴阶段波形校准）",
-   "start": 96.7,
-   "end": 98.8,
-   "dur": 2.1,
+   "start": 97.639,
+   "end": 99.72,
+   "dur": 2.081,
    "role": "华安",
    "orig": "对不起我俩惺惺相惜情不自禁",
    "keep": true,
@@ -557,15 +557,14 @@
    "shift": 0.939,
    "cover": 0.82,
    "match_mode": "py-win",
-   "suspicious": false,
-   "needs_review": true
+   "suspicious": false
   },
   {
    "id": "N32",
    "act": "第四幕 惺惺相惜（蒙太奇段，槽时间为近似值，贴轴阶段波形校准）",
-   "start": 99.5,
-   "end": 100.0,
-   "dur": 0.5,
+   "start": 99.77,
+   "end": 100.07,
+   "dur": 0.3,
    "role": "",
    "orig": "群众嘘声",
    "keep": true,
@@ -573,7 +572,7 @@
    "use_original_track": true,
    "aligned": false,
    "align_note": "low-cover",
-   "needs_review": true
+   "evidence": "R4倒挂ASR重锚"
   },
   {
    "id": "N33",
@@ -659,26 +658,49 @@
    "cover": 0.53,
    "match_mode": "py-win",
    "suspicious": false,
-   "evidence": "对穿肠被逼念叠字链 ASR[122.66~128.90]前段(字数比12/20);后半'年年暮暮昭昭'归 N38 前半"
+   "evidence": "ASR[122.66~128.90]前段(叠字链前半, 字数比12/20切)"
   },
   {
-   "id": "N38",
    "act": "第五幕 对联大战（快节奏骂战）",
+   "role": "华安+群杂",
+   "suspicious": false,
+   "id": "N38a",
+   "start": 126.4,
+   "end": 128.9,
+   "orig": "年年暮暮朝朝",
+   "text": "虚虚假假，年年岁岁",
+   "keep": false,
+   "use_original_track": false,
+   "evidence": "ASR[122.66~128.90]尾段(叠字链后半, 与N37同段按字数比切)",
+   "dur": 2.5
+  },
+  {
+   "act": "第五幕 对联大战（快节奏骂战）",
+   "role": "华安",
+   "suspicious": false,
+   "id": "K1",
+   "start": 129.99,
+   "end": 131.99,
+   "orig": "哈哈真行啊",
+   "text": "",
+   "keep": true,
+   "use_original_track": false,
+   "evidence": "ASR[129.99~131.99] 表演依赖笑句, KEEP 原声",
+   "dur": 2.0
+  },
+  {
+   "act": "第五幕 对联大战（快节奏骂战）",
+   "role": "华安+群杂",
+   "suspicious": false,
+   "id": "N38b",
    "start": 131.99,
    "end": 134.22,
-   "dur": 2.23,
-   "role": "华安+群杂",
-   "orig": "年年暮暮朝朝＋快出对子对死他",
+   "orig": "快出对子对死他",
+   "text": "快出对子对死他",
    "keep": false,
-   "text": "虚虚假假年年岁岁，快出对子对死他",
    "use_original_track": false,
-   "aligned": true,
-   "shift": 4.575,
-   "cover": 0.59,
-   "match_mode": "py-win",
-   "suspicious": false,
-   "evidence": "复合槽: 前半'年年暮暮朝朝'在 ASR[126.4~128.9] 尾部(与N37同段), 后半'快出对子对死她'=ASR[131.99~134.22];取后半+needs_review",
-   "needs_review": true
+   "evidence": "ASR[131.99~134.22] 全段",
+   "dur": 2.23
   },
   {
    "id": "N39",
@@ -696,7 +718,7 @@
    "cover": 1.0,
    "match_mode": "py-win",
    "suspicious": true,
-   "evidence": "ASR[134.22~138.22]'十口心似四军四国似设计八目共赏' 全段"
+   "evidence": "ASR 全段'十口心思思君思国思社稷+八目共赏'"
   },
   {
    "id": "N40",
@@ -714,7 +736,7 @@
    "cover": 1.0,
    "match_mode": "py-win",
    "suspicious": false,
-   "evidence": "'八目共赏'=ASR[134.22~138.22]尾 + '赏花赏月赏秋香'=ASR[138.22~141.22]; 取衔接点"
+   "evidence": "'八目共赏'尾接'赏花赏月赏秋香'=ASR[138.22~141.22]"
   },
   {
    "id": "N41",
@@ -732,7 +754,7 @@
    "cover": 0.59,
    "match_mode": "py-win",
    "suspicious": true,
-   "evidence": "ASR[143.22~148.22]'我尚等魏玉峰陷陷一身胡胆'=同音错字版 orig"
+   "evidence": "ASR 全段(同音错字版 orig)"
   },
   {
    "id": "N42",
@@ -771,42 +793,46 @@
    "evidence": "ASR 全段"
   },
   {
-   "id": "N44",
    "act": "第五幕 对联大战（快节奏骂战）",
+   "role": "对穿肠",
+   "suspicious": false,
+   "id": "N44a",
    "start": 155.22,
    "end": 158.22,
-   "dur": 3.0,
-   "role": "对穿肠",
-   "orig": "我家坟头来种树＋鱼肥果熟入我肚",
+   "orig": "我家坟头来种树",
+   "text": "盆满钵满入我囊",
    "keep": false,
-   "text": "盆满钵满入我囊，坑爹车主赚得欢",
    "use_original_track": false,
-   "aligned": true,
-   "shift": 0.028,
-   "cover": 0.69,
-   "match_mode": "py-win",
-   "suspicious": false,
-   "evidence": "复合槽只取前半'我家坟头来种树'=ASR[155.22~158.22]; 后半'鱼肥果熟入我肚'=ASR[160.74~162.46]与 N46 重叠 → needs_review",
-   "needs_review": true
+   "evidence": "ASR[155.22~158.22] 全段 (复合槽前半)",
+   "dur": 3.0
   },
   {
-   "id": "N46",
    "act": "第五幕 对联大战（快节奏骂战）",
+   "role": "华安",
+   "suspicious": false,
+   "id": "K2",
+   "start": 158.22,
+   "end": 160.26,
+   "orig": "鱼肥果熟入我肚(对句)",
+   "text": "",
+   "keep": true,
+   "use_original_track": false,
+   "evidence": "ASR[158.22~160.26]'奴家灶盆杂配鱼' 画本漏收, 戏腔对句 KEEP 原声",
+   "dur": 2.04
+  },
+  {
+   "act": "第五幕 对联大战（快节奏骂战）",
+   "role": "对穿肠",
+   "suspicious": false,
+   "id": "N44b",
    "start": 160.74,
    "end": 162.46,
-   "dur": 1.72,
-   "role": "",
-   "orig": "群众 chanting",
-   "keep": true,
-   "text": "（保留原声）",
+   "orig": "鱼肥果熟入我肚",
+   "text": "坑爹车主赚得欢",
+   "keep": false,
    "use_original_track": false,
-   "aligned": true,
-   "shift": -3.326,
-   "cover": 0.75,
-   "match_mode": "py-win",
-   "suspicious": false,
-   "evidence": "画本标'群众chanting'实为台词'鱼肥果熟入我肚'(ASR'鱼飞过船入我洞'同音错字); KEEP 原声无音频影响 → needs_review",
-   "needs_review": true
+   "evidence": "ASR[160.74~162.46]'鱼飞过船入我洞'=同音错字; 旧N46'群众chanting'为误标, 实为台词",
+   "dur": 1.72
   },
   {
    "id": "N45",
@@ -824,7 +850,7 @@
    "cover": 1.0,
    "match_mode": "py-global",
    "suspicious": false,
-   "evidence": "ASR 全段'你老娘来倾下厨'"
+   "evidence": "ASR 全段'你老娘来亲下厨'"
   },
   {
    "id": "N47",
@@ -878,7 +904,7 @@
    "cover": 0.89,
    "match_mode": "py-win",
    "suspicious": false,
-   "evidence": "真实跨度=笑声+台词: '哈哈'在 177~179 (ASR 漏捕笑声), '华安哪这儿没你的事了'=ASR[179.22~181.02]; 18字/3.98s=4.5字/s ✓"
+   "evidence": "笑声'哈哈'在177~179(ASR漏捕非语音)+台词ASR[179.22~181.02]; 18字/3.98s=4.5字/s"
   },
   {
    "id": "N50",
@@ -893,7 +919,7 @@
    "use_original_track": false,
    "aligned": false,
    "align_note": "low-cover",
-   "evidence": "收尾余音让位 N49 后仅剩片尾残段 (ASR[181.26~181.74]'你出'= 片尾截断不入槽)"
+   "evidence": "片尾残段, ASR[181.26~]'你出'=片尾截断不入槽"
   }
  ],
  "original_track_runs": [
@@ -907,12 +933,12 @@
    "first": "N29a",
    "last": "N31",
    "start": 68.0,
-   "end": 98.8
+   "end": 99.72
   },
   {
    "first": "N32",
    "last": "N33",
-   "start": 99.5,
+   "start": 99.77,
    "end": 103.839
   }
  ]
