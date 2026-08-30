@@ -218,7 +218,8 @@ def mix():
 def status():
     for d, pat, label in [("refs", "ref_*.wav", "参考件"), ("tts_out", "gen_*.wav", "TTS原始"), ("tts_fit", "fit_*.wav", "收口")]:
         p = os.path.join(BASE, d)
-        n = len([f for f in os.listdir(p) if f.startswith(pat.rstrip("*").rstrip("_"))]) if os.path.exists(p) else 0
+        import glob as _g
+        n = len(_g.glob(os.path.join(p, pat))) if os.path.exists(p) else 0
         print(f"{label}: {n}")
     print("mixed:", os.path.exists(os.path.join(OUT_MIX, "mixed.wav")), "| final:", os.path.exists(os.path.join(OUT_MIX, "final_audio.wav")))
 
