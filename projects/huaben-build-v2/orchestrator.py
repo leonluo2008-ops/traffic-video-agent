@@ -76,8 +76,8 @@ def stage1():
 # ───────────────────────── ComfyUI TTS 提交 ─────────────────────────
 WF = {
   "1": {"class_type": "LoadAudio", "inputs": {"audio": ""}},
-  "2": {"class_type": "IndexTTS25BaseNode", "inputs": {"text": "", "reference_audio": ["1", "audio"], "lang": "ZH", "duration_factor": 1.0}},
-  "3": {"class_type": "SaveAudio", "inputs": {"audio": ["2", "audio"]}},
+  "2": {"class_type": "IndexTTS25BaseNode", "inputs": {"text": "", "reference_audio": ["1", 0], "lang": "ZH", "duration_factor": 1.0}},
+  "3": {"class_type": "SaveAudio", "inputs": {"audio": ["2", 0]}},
 }
 
 def submit(text, ref_rel):
