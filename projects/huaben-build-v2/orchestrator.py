@@ -84,6 +84,7 @@ def submit(text, ref_rel, df=1.0):
     wf = json.loads(json.dumps(WF))
     wf["1"]["inputs"]["audio"] = ref_rel  # 平铺文件名, 如 ref_N23.wav
     wf["2"]["inputs"]["text"] = text
+    wf["2"]["inputs"]["duration_factor"] = df
     # 长句 max_mel_tokens 放宽（v3 实测上限 1815）
     n = len(re.sub(r"[^\u4e00-\u9fffA-Za-z0-9]", "", text))
     if n > 40:
