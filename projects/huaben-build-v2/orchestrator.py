@@ -99,7 +99,8 @@ def submit(text, ref_rel, df=1.0):
         outputs = h[pid].get("outputs", {})
         if outputs:
             for node_out in outputs.values():
-                for g in node_out.get("gifs", []):   # SaveAudio 产物在 gifs 槽（实测惯例）
+                got = list(node_out.get("audio", [])) + list(node_out.get("gifs", []))
+                for g in got:   # SaveAudio 产物键: audio(实测) / gifs(老版本惯例)
                     fname = g.get("filename"); sub = g.get("subfolder", ""); t = g.get("type")
                     if t == "output": return os.path.join(r"D:\AI-tool\ComfyUI-aki-v1.6\ComfyUI\output", sub, fname)
         st = h[pid].get("status", {})
