@@ -1,0 +1,100 @@
+[
+ {
+  "start": 0.0,
+  "end": 2.95,
+  "role": "宁王",
+  "evidence": "自称'本王'(本王带车企护主犬)+视觉张嘴",
+  "action": "REPLAN@ref_ningwang"
+ },
+ {
+  "start": 3.09,
+  "end": 4.81,
+  "role": "宁王",
+  "evidence": "同上联句后半",
+  "action": "REPLAN@ref_ningwang"
+ },
+ {
+  "start": 5.03,
+  "end": 7.51,
+  "role": "华安",
+  "evidence": "字幕格A'哎!我等车主岂可恃弱凌强'",
+  "action": "REPLAN@ref_hua"
+ },
+ {
+  "start": 7.59,
+  "end": 10.62,
+  "role": "华安+群杂",
+  "evidence": "字幕格B'谈车论道'+是是啊/就是嘛",
+  "action": "REPLAN@ref_hua(群杂并)"
+ },
+ {
+  "start": 10.62,
+  "end": 13.53,
+  "role": "对穿祥",
+  "evidence": "字幕格C'车企历来愿意听取意见'+视觉",
+  "action": "REPLAN@ref_duichx"
+ },
+ {
+  "start": 13.8,
+  "end": 15.08,
+  "role": "对穿祥",
+  "evidence": "'啊?'惊愕(视觉+音频)",
+  "action": "KEEP_EFFECT"
+ },
+ {
+  "start": 15.38,
+  "end": 15.87,
+  "role": "对穿祥",
+  "evidence": "'出对!'字幕+命令式",
+  "action": "REPLAN@ref_duichx"
+ },
+ {
+  "start": 16.71,
+  "end": 17.09,
+  "role": "群杂",
+  "evidence": "'对啊!'合声(声纹独立簇C)",
+  "action": "KEEP_GROUP"
+ },
+ {
+  "start": 17.6,
+  "end": 19.53,
+  "role": "对穿祥",
+  "evidence": "'一民二徒三修车'字幕+视觉",
+  "action": "REPLAN@ref_duichx"
+ },
+ {
+  "start": 19.9,
+  "end": 24.66,
+  "role": "对穿祥",
+  "evidence": "上联后半+字幕",
+  "action": "REPLAN@ref_duichx"
+ },
+ {
+  "start": 24.85,
+  "end": 25.17,
+  "role": "对穿祥",
+  "evidence": "字幕'对啊'",
+  "action": "REPLAN@ref_duichx"
+ },
+ {
+  "start": 25.29,
+  "end": 25.92,
+  "role": "对穿祥",
+  "evidence": "字幕'怎么不对啊'",
+  "action": "REPLAN@ref_duichx"
+ },
+ {
+  "start": 26.08,
+  "end": 29.65,
+  "role": "对穿祥",
+  "evidence": "字幕'我可要索赔500万了'+Gemini",
+  "action": "REPLAN@ref_duichx"
+ },
+ {
+  "start": 30.63,
+  "end": 38.0,
+  "role": "华安",
+  "evidence": "字幕'十吹九虚藏八坑'+'偷技七减六缩五删'",
+  "action": "REPLAN@ref_hua"
+ }
+]
