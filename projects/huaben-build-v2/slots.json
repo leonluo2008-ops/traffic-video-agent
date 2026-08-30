@@ -11,7 +11,8 @@
    "role": "宁王",
    "orig": "素闻太师才高八斗",
    "keep": false,
-   "text": "久闻车评卧虎藏龙"
+   "text": "久闻车评卧虎藏龙",
+   "use_original_track": false
   },
   {
    "id": "N02",
@@ -22,7 +23,8 @@
    "role": "宁王",
    "orig": "我有一个参谋将军",
    "keep": false,
-   "text": "本王带车骑护卫"
+   "text": "本王带车骑护卫",
+   "use_original_track": false
   },
   {
    "id": "N03",
@@ -33,7 +35,8 @@
    "role": "宁王",
    "orig": "想跟你切磋切磋",
    "keep": false,
-   "text": "特来切磋论车"
+   "text": "特来切磋论车",
+   "use_original_track": false
   },
   {
    "id": "N04",
@@ -44,7 +47,8 @@
    "role": "华夫人",
    "orig": "我们老爷怎么可以以大欺小呢",
    "keep": false,
-   "text": "哎，我等车主岂可以小欺大"
+   "text": "哎，我等车主岂可以小欺大",
+   "use_original_track": false
   },
   {
    "id": "N05",
@@ -55,7 +59,8 @@
    "role": "华太师",
    "orig": "是啊",
    "keep": false,
-   "text": "是啊"
+   "text": "是啊",
+   "use_original_track": false
   },
   {
    "id": "N06",
@@ -66,7 +71,8 @@
    "role": "对穿肠",
    "orig": "文学切磋是不分辈分的",
    "keep": false,
-   "text": "行车论道，技高为尊"
+   "text": "行车论道，技高为尊",
+   "use_original_track": false
   },
   {
    "id": "N07",
@@ -77,7 +83,8 @@
    "role": "宁王",
    "orig": "就是嘛玩玩而已",
    "keep": false,
-   "text": "就是嘛，玩玩而已"
+   "text": "就是嘛，玩玩而已",
+   "use_original_track": false
   },
   {
    "id": "N08",
@@ -88,7 +95,8 @@
    "role": "宁王",
    "orig": "不过如果你对不出来",
    "keep": false,
-   "text": "车技第一，友谊第二"
+   "text": "车技第一，友谊第二",
+   "use_original_track": false
   },
   {
    "id": "N09",
@@ -99,7 +107,8 @@
    "role": "宁王",
    "orig": "别怪我发飙啊",
    "keep": false,
-   "text": "从不投诉记怨"
+   "text": "从不投诉记怨",
+   "use_original_track": false
   },
   {
    "id": "N10",
@@ -110,7 +119,8 @@
    "role": "对穿肠",
    "orig": "一乡二里共三夫子",
    "keep": false,
-   "text": "一名二徒三修车"
+   "text": "一名二徒三修车",
+   "use_original_track": false
   },
   {
    "id": "N11",
@@ -121,7 +131,8 @@
    "role": "对穿肠",
    "orig": "不识四书五经六义",
    "keep": false,
-   "text": "不懂四缸五电"
+   "text": "不懂四缸五电",
+   "use_original_track": false
   },
   {
    "id": "N12",
@@ -132,7 +143,8 @@
    "role": "对穿肠",
    "orig": "竟敢教七八九子",
    "keep": false,
-   "text": "定杆停七八九车"
+   "text": "定杆停七八九车",
+   "use_original_track": false
   },
   {
    "id": "N13",
@@ -143,7 +155,8 @@
    "role": "对穿肠",
    "orig": "十分大胆",
    "keep": false,
-   "text": "十分大胆"
+   "text": "十分大胆",
+   "use_original_track": false
   },
   {
    "id": "N14",
@@ -154,7 +167,8 @@
    "role": "宁王",
    "orig": "怎么不对/不给面子/要发飙",
    "keep": false,
-   "text": "怎么不对？没理我可要索赔五百万"
+   "text": "怎么不对？没理我可要索赔五百万",
+   "use_original_track": false
   },
   {
    "id": "N15",
@@ -165,7 +179,8 @@
    "role": "华安",
    "orig": "让我来试试",
    "keep": true,
-   "text": "让我来试试"
+   "text": "让我来试试",
+   "use_original_track": false
   },
   {
    "id": "N16",
@@ -176,7 +191,8 @@
    "role": "华安",
    "orig": "十室九贫凑得八两",
    "keep": false,
-   "text": "十出九假常拉偏架"
+   "text": "十出九假常拉偏架",
+   "use_original_track": false
   },
   {
    "id": "N17",
@@ -187,7 +203,8 @@
    "role": "华安",
    "orig": "七钱六分五毫四厘",
    "keep": false,
-   "text": "七推六诿五毛四分甩锅"
+   "text": "七推六诿五毛四分甩锅",
+   "use_original_track": false
   },
   {
    "id": "N18",
@@ -198,7 +215,8 @@
    "role": "华安",
    "orig": "尚且三心二意",
    "keep": false,
-   "text": "尚且三心二意"
+   "text": "尚且三心二意",
+   "use_original_track": false
   },
   {
    "id": "N19",
@@ -209,7 +227,8 @@
    "role": "华安",
    "orig": "一等下流",
    "keep": false,
-   "text": "一等无良"
+   "text": "一等无良",
+   "use_original_track": false
   },
   {
    "id": "N20",
@@ -220,7 +239,8 @@
    "role": "对穿肠",
    "orig": "好工整啊",
    "keep": true,
-   "text": "好工整啊"
+   "text": "好工整啊",
+   "use_original_track": false
   },
   {
    "id": "N21",
@@ -231,7 +251,8 @@
    "role": "华太师",
    "orig": "（夸赞语）",
    "keep": true,
-   "text": "好好好，你来得正是时候啊"
+   "text": "好好好，你来得正是时候啊",
+   "use_original_track": true
   },
   {
    "id": "N22",
@@ -242,7 +263,8 @@
    "role": "华夫人",
    "orig": "没事没事没事嗯",
    "keep": true,
-   "text": "没事没事没事"
+   "text": "没事没事没事",
+   "use_original_track": true
   },
   {
    "id": "N23",
@@ -253,7 +275,8 @@
    "role": "对穿肠",
    "orig": "在下是七省文状元兼参谋将军",
    "keep": false,
-   "text": "在下乃七大车企特聘鹰犬"
+   "text": "在下乃七大车企特聘鹰犬",
+   "use_original_track": false
   },
   {
    "id": "N24",
@@ -264,7 +287,8 @@
    "role": "对穿肠",
    "orig": "对王之王的对穿肠",
    "keep": false,
-   "text": "绰号拿钱洗地对穿肠"
+   "text": "绰号拿钱洗地对穿肠",
+   "use_original_track": false
   },
   {
    "id": "N25",
@@ -275,7 +299,8 @@
    "role": "华安",
    "orig": "小弟读过两年书……",
    "keep": false,
-   "text": "阁下是——小弟读了两年的车，专治车企不服"
+   "text": "阁下是——小弟读了两年的车，专治车企不服",
+   "use_original_track": false
   },
   {
    "id": "N26",
@@ -286,7 +311,8 @@
    "role": "华安",
    "orig": "华府一个迷途小书童华安",
    "keep": false,
-   "text": "车界迷途修理工，老赵说车"
+   "text": "车界迷途修理工，老赵说车",
+   "use_original_track": false
   },
   {
    "id": "N27",
@@ -297,7 +323,8 @@
    "role": "华安",
    "orig": "来",
    "keep": true,
-   "text": "来"
+   "text": "来",
+   "use_original_track": false
   },
   {
    "id": "N28",
@@ -308,7 +335,56 @@
    "role": "对穿肠",
    "orig": "我就来会一会你",
    "keep": true,
-   "text": "我就来会一会你"
+   "text": "我就来会一会你",
+   "use_original_track": false
+  },
+  {
+   "id": "N29a",
+   "act": "第四幕 惺惺相惜（蒙太奇段，槽时间为近似值，贴轴阶段波形校准）",
+   "start": 68.0,
+   "end": 74.0,
+   "dur": 6.0,
+   "role": "对穿肠",
+   "orig": "贤弟（拖腔对喊）",
+   "keep": true,
+   "text": "贤弟（拖腔对喊）",
+   "use_original_track": true
+  },
+  {
+   "id": "N29b",
+   "act": "第四幕 惺惺相惜（蒙太奇段，槽时间为近似值，贴轴阶段波形校准）",
+   "start": 74.0,
+   "end": 80.0,
+   "dur": 6.0,
+   "role": "华安",
+   "orig": "仁兄（拖腔）",
+   "keep": true,
+   "text": "仁兄（拖腔）",
+   "use_original_track": true
+  },
+  {
+   "id": "N29c",
+   "act": "第四幕 惺惺相惜（蒙太奇段，槽时间为近似值，贴轴阶段波形校准）",
+   "start": 80.0,
+   "end": 87.0,
+   "dur": 7.0,
+   "role": "对穿肠",
+   "orig": "贤弟（拖腔）",
+   "keep": true,
+   "text": "贤弟（拖腔）",
+   "use_original_track": true
+  },
+  {
+   "id": "N29d",
+   "act": "第四幕 惺惺相惜（蒙太奇段，槽时间为近似值，贴轴阶段波形校准）",
+   "start": 87.0,
+   "end": 94.0,
+   "dur": 7.0,
+   "role": "华安",
+   "orig": "愚兄（拖腔）",
+   "keep": true,
+   "text": "愚兄——",
+   "use_original_track": true
   },
   {
    "id": "N30",
@@ -319,7 +395,8 @@
    "role": "",
    "orig": "亲吻闷哼",
    "keep": true,
-   "text": "亲吻闷哼"
+   "text": "亲吻闷哼",
+   "use_original_track": true
   },
   {
    "id": "N31",
@@ -330,7 +407,20 @@
    "role": "华安",
    "orig": "对不起我俩惺惺相惜情不自禁",
    "keep": true,
-   "text": "对不起我俩惺惺相惜情不自禁"
+   "text": "对不起我俩惺惺相惜情不自禁",
+   "use_original_track": true
+  },
+  {
+   "id": "N32",
+   "act": "第四幕 惺惺相惜（蒙太奇段，槽时间为近似值，贴轴阶段波形校准）",
+   "start": 99.5,
+   "end": 100.0,
+   "dur": 0.5,
+   "role": "",
+   "orig": "群众嘘声",
+   "keep": true,
+   "text": "（保留原声）",
+   "use_original_track": true
   },
   {
    "id": "N33",
@@ -341,7 +431,8 @@
    "role": "华安",
    "orig": "言归正传我们开始",
    "keep": true,
-   "text": "言归正传我们开始"
+   "text": "言归正传我们开始",
+   "use_original_track": true
   },
   {
    "id": "N34",
@@ -352,7 +443,8 @@
    "role": "对穿肠",
    "orig": "图画里龙不吟虎不啸小小书童可笑可笑",
    "keep": false,
-   "text": "评测里电不虚油不耗，小小车评，客气客气"
+   "text": "评测里电不虚油不耗，小小车评，客气客气",
+   "use_original_track": false
   },
   {
    "id": "N35",
@@ -363,7 +455,8 @@
    "role": "华安",
    "orig": "棋盘里车无轮马无缰叫声将军提防",
    "keep": false,
-   "text": "参数表马力虚标，叫声车王提防提防"
+   "text": "参数表马力虚标，叫声车王提防提防",
+   "use_original_track": false
   },
   {
    "id": "N36",
@@ -374,7 +467,8 @@
    "role": "华安",
    "orig": "莺莺燕燕翠翠红红",
    "keep": false,
-   "text": "平平大大，软软香香"
+   "text": "平平大大，软软香香",
+   "use_original_track": false
   },
   {
    "id": "N37",
@@ -385,7 +479,8 @@
    "role": "对穿肠",
    "orig": "处融融恰恰郁郁风风花",
    "keep": false,
-   "text": "舒舒适适，安安稳稳，实实在在"
+   "text": "舒舒适适，安安稳稳，实实在在",
+   "use_original_track": false
   },
   {
    "id": "N38",
@@ -396,7 +491,8 @@
    "role": "华安+群杂",
    "orig": "年年暮暮朝朝＋快出对子对死他",
    "keep": false,
-   "text": "虚虚假假年年岁岁，快出对子对死他"
+   "text": "虚虚假假年年岁岁，快出对子对死他",
+   "use_original_track": false
   },
   {
    "id": "N39",
@@ -407,7 +503,8 @@
    "role": "对穿肠",
    "orig": "十口心思思君思国思社稷",
    "keep": false,
-   "text": "十口心思，思车，思价，思钱包"
+   "text": "十口心思，思车，思价，思钱包",
+   "use_original_track": false
   },
   {
    "id": "N40",
@@ -418,7 +515,8 @@
    "role": "华安",
    "orig": "八目共赏赏花赏月赏秋香",
    "keep": false,
-   "text": "八目共赏，赏真赏据赏实测"
+   "text": "八目共赏，赏真赏据赏实测",
+   "use_original_track": false
   },
   {
    "id": "N41",
@@ -429,7 +527,8 @@
    "role": "华安",
    "orig": "我上等威风显现一身虎胆",
    "keep": false,
-   "text": "我千般苦心，全为天下车主说话"
+   "text": "我千般苦心，全为天下车主说话",
+   "use_original_track": false
   },
   {
    "id": "N42",
@@ -440,7 +539,8 @@
    "role": "对穿肠",
    "orig": "你下流贱格露出半个龟头",
    "keep": false,
-   "text": "一帮草民硬是车场称霸"
+   "text": "一帮草民硬是车场称霸",
+   "use_original_track": false
   },
   {
    "id": "N43",
@@ -451,7 +551,8 @@
    "role": "华安",
    "orig": "我堂堂参谋将军会输给你个",
    "keep": false,
-   "text": "我堂堂车企英犬，会输给你"
+   "text": "我堂堂车企英犬，会输给你",
+   "use_original_track": false
   },
   {
    "id": "N44",
@@ -462,7 +563,8 @@
    "role": "对穿肠",
    "orig": "我家坟头来种树＋鱼肥果熟入我肚",
    "keep": false,
-   "text": "盆满钵满入我囊，坑爹车主赚得欢"
+   "text": "盆满钵满入我囊，坑爹车主赚得欢",
+   "use_original_track": false
   },
   {
    "id": "N45",
@@ -473,7 +575,8 @@
    "role": "华安",
    "orig": "你老娘来亲下厨",
    "keep": false,
-   "text": "你老娘来试车"
+   "text": "你老娘来试车",
+   "use_original_track": false
   },
   {
    "id": "N46",
@@ -484,7 +587,8 @@
    "role": "",
    "orig": "群众 chanting",
    "keep": true,
-   "text": "（保留原声）"
+   "text": "（保留原声）",
+   "use_original_track": false
   },
   {
    "id": "N47",
@@ -495,7 +599,8 @@
    "role": "华安",
    "orig": "对对本为消遣作乐今日穿肠兄对到呕出几十两血",
    "keep": false,
-   "text": "对对本为消遣作乐，今日穿肠兄居然对到呕出几十两血"
+   "text": "对对本为消遣作乐，今日穿肠兄居然对到呕出几十两血",
+   "use_original_track": false
   },
   {
    "id": "N48",
@@ -506,7 +611,8 @@
    "role": "对穿肠",
    "orig": "可谓空前绝后佩服佩服（虚弱）",
    "keep": true,
-   "text": "可谓空前绝后佩服佩服（虚弱）"
+   "text": "可谓空前绝后佩服佩服（虚弱）",
+   "use_original_track": false
   },
   {
    "id": "N49",
@@ -517,7 +623,8 @@
    "role": "华太师",
    "orig": "哈哈华安呐这儿没你的事了哎你出",
    "keep": false,
-   "text": "哈哈，华安呐，这儿没你的事了，你回去修车吧"
+   "text": "哈哈，华安呐，这儿没你的事了，你回去修车吧",
+   "use_original_track": false
   },
   {
    "id": "N50",
@@ -528,7 +635,28 @@
    "role": "",
    "orig": "收尾余音",
    "keep": true,
-   "text": "（保留原声）"
+   "text": "（保留原声）",
+   "use_original_track": false
+  }
+ ],
+ "original_track_runs": [
+  {
+   "first": "N21",
+   "last": "N22",
+   "start": 42.9,
+   "end": 47.4
+  },
+  {
+   "first": "N29a",
+   "last": "N31",
+   "start": 68.0,
+   "end": 98.8
+  },
+  {
+   "first": "N32",
+   "last": "N33",
+   "start": 99.5,
+   "end": 102.2
   }
  ]
 }
