@@ -11,3 +11,9 @@ SEG2 (29字)...
   LLM ok 287 chars 43s (attempt 2)
   -> 5 槽
 SEG3 (59字)...
+  LLM 空回 68s (attempt 1)
+  LLM 空回 76s (attempt 2)
+  LLM 空回 72s (attempt 3)
+  !! 跳过(空回)
+SEG4 (65字)...
+  LLM 空回 103s (attempt 1)
