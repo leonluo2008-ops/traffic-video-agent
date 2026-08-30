@@ -80,7 +80,7 @@ WF = {
   "3": {"class_type": "SaveAudio", "inputs": {"audio": ["2", 0], "filename_prefix": "huaben/tts"}},
 }
 
-def submit(text, ref_rel):
+def submit(text, ref_rel, df=1.0):
     wf = json.loads(json.dumps(WF))
     wf["1"]["inputs"]["audio"] = ref_rel  # 平铺文件名, 如 ref_N23.wav
     wf["2"]["inputs"]["text"] = text
@@ -108,7 +108,7 @@ def submit(text, ref_rel):
 def gen_one(s):
     text = s["text"]
     ref_rel = f"ref_{s['id']}.wav"
-    out = submit(text, ref_rel)
+    out = submit(text, ref_rel, df=s.get("df", 1.0))
     dst = os.path.join(OUT_TTS, f'gen_{s["id"]}.wav')
     sh([FF, "-y", "-i", out, "-ac", "1", "-ar", "44100", dst])
     return dst
@@ -131,6 +131,18 @@ def tts_all():
             print("FAIL", s["id"], repr(e)[:200]); continue
         d = probe_dur(p)
         tgt = s["dur"] + 0.05
+        if d > tgt * 1.6 and s.get("df", 1.0) == 1.0:
+            # 语速差太大: 用 duration_factor=0.5 重生(模型原生快语速, 比纯 atempo 压自然)
+            print(f'  {s["id"]} ratio={d/tgt:.2f} > 1.6, regen with df=0.5')
+            try:
+                s2 = dict(s, df=0.5)
+                p = gen_one(s2)
+                d2 = probe_dur(p)
+                if d2 < d: d = d2
+                else: p = gen_one(s)  # 回退重生成原版
+                d = probe_dur(p)
+            except Exception as e:
+                print("  regen fail", s["id"], repr(e)[:120]); p = gen_one(s); d = probe_dur(p)
         fit = os.path.join(OUT_FIT, f'fit_{s["id"]}.wav')
         if d > tgt * 1.02:
             tempo = d / tgt
