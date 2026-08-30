@@ -17,7 +17,7 @@ PYC    = r"D:\AI-tool\ComfyUI-aki-v1.6\python\python.exe"   # demucs 宿主
 COMFY  = "http://127.0.0.1:8188"
 INPUT  = r"D:\AI-tool\ComfyUI-aki-v1.6\ComfyUI\input"        # LoadAudio COMBO 根
 # LoadAudio 的 input 参数也接受子目录相对路径（"huaben/ref_N01.wav"）——冒烟阶段验证
-REF_SUB = "huaben"
+REF_SUB = ""  # LoadAudio 只认 input 根目录平铺文件名（子目录不在 COMBO options）
 OUT_TTS = os.path.join(BASE, "tts_out")       # TTS 原始产物
 OUT_FIT = os.path.join(BASE, "tts_fit")       # atempo 收口产物
 OUT_MIX = os.path.join(BASE, "mix")
@@ -76,13 +76,13 @@ def stage1():
 # ───────────────────────── ComfyUI TTS 提交 ─────────────────────────
 WF = {
   "1": {"class_type": "LoadAudio", "inputs": {"audio": ""}},
-  "2": {"class_type": "IndexTTS25BaseNode", "inputs": {"text": "", "reference_audio": ["1", "audio"]}},
+  "2": {"class_type": "IndexTTS25BaseNode", "inputs": {"text": "", "reference_audio": ["1", "audio"], "lang": "ZH", "duration_factor": 1.0}},
   "3": {"class_type": "SaveAudio", "inputs": {"audio": ["2", "audio"]}},
 }
 
 def submit(text, ref_rel):
     wf = json.loads(json.dumps(WF))
-    wf["1"]["inputs"]["audio"] = ref_rel
+    wf["1"]["inputs"]["audio"] = ref_rel  # 平铺文件名, 如 ref_N23.wav
     wf["2"]["inputs"]["text"] = text
     # 长句 max_mel_tokens 放宽（v3 实测上限 1815）
     n = len(re.sub(r"[^\u4e00-\u9fffA-Za-z0-9]", "", text))
@@ -107,7 +107,7 @@ def submit(text, ref_rel):
 
 def gen_one(s):
     text = s["text"]
-    ref_rel = f"{REF_SUB}/ref_{s['id']}.wav"
+    ref_rel = f"ref_{s['id']}.wav"
     out = submit(text, ref_rel)
     dst = os.path.join(OUT_TTS, f'gen_{s["id"]}.wav')
     sh([FF, "-y", "-i", out, "-ac", "1", "-ar", "44100", dst])
