@@ -77,7 +77,7 @@ def stage1():
 WF = {
   "1": {"class_type": "LoadAudio", "inputs": {"audio": ""}},
   "2": {"class_type": "IndexTTS25BaseNode", "inputs": {"text": "", "reference_audio": ["1", 0], "lang": "ZH", "duration_factor": 1.0}},
-  "3": {"class_type": "SaveAudio", "inputs": {"audio": ["2", 0]}},
+  "3": {"class_type": "SaveAudio", "inputs": {"audio": ["2", 0], "filename_prefix": "huaben/tts"}},
 }
 
 def submit(text, ref_rel):
