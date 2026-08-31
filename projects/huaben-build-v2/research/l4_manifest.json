@@ -1,0 +1,548 @@
+[
+ {
+  "id": "V7-000",
+  "status": "ok",
+  "gen_dur": 1.985,
+  "slot_dur": 1.96,
+  "ratio": 1.013,
+  "df_used": 0.89
+ },
+ {
+  "id": "V7-001",
+  "status": "ok",
+  "gen_dur": 2.589,
+  "slot_dur": 2.44,
+  "ratio": 1.061
+ },
+ {
+  "id": "V7-002",
+  "status": "ok",
+  "gen_dur": 2.473,
+  "slot_dur": 2.58,
+  "ratio": 0.958,
+  "df_used": 0.74
+ },
+ {
+  "id": "V7-003",
+  "status": "ok",
+  "gen_dur": 0.534,
+  "slot_dur": 0.46,
+  "ratio": 1.161,
+  "df_used": 0.61
+ },
+ {
+  "id": "V7-004",
+  "status": "ok",
+  "gen_dur": 1.73,
+  "slot_dur": 1.8,
+  "ratio": 0.961,
+  "df_used": 0.75
+ },
+ {
+  "id": "V7-005",
+  "status": "ok",
+  "gen_dur": 0.464,
+  "slot_dur": 0.5,
+  "ratio": 0.929,
+  "df_used": 0.74
+ },
+ {
+  "id": "V7-006",
+  "status": "ok",
+  "gen_dur": 0.697,
+  "slot_dur": 0.7,
+  "ratio": 0.995,
+  "df_used": 0.7
+ },
+ {
+  "id": "V7-007",
+  "status": "ok",
+  "gen_dur": 1.312,
+  "slot_dur": 1.38,
+  "ratio": 0.951,
+  "df_used": 0.72
+ },
+ {
+  "id": "V7-008",
+  "status": "ok",
+  "gen_dur": 0.836,
+  "slot_dur": 0.9,
+  "ratio": 0.929
+ },
+ {
+  "id": "V7-010",
+  "status": "ok",
+  "gen_dur": 0.94,
+  "slot_dur": 0.98,
+  "ratio": 0.96,
+  "df_used": 0.88
+ },
+ {
+  "id": "V7-011",
+  "status": "ok",
+  "gen_dur": 0.708,
+  "slot_dur": 0.7,
+  "ratio": 1.012,
+  "df_used": 0.66
+ },
+ {
+  "id": "V7-012",
+  "status": "ok",
+  "gen_dur": 1.509,
+  "slot_dur": 1.48,
+  "ratio": 1.02,
+  "df_used": 0.79
+ },
+ {
+  "id": "V7-013",
+  "status": "ok",
+  "gen_dur": 1.358,
+  "slot_dur": 1.4,
+  "ratio": 0.97,
+  "df_used": 0.62
+ },
+ {
+  "id": "V7-014",
+  "status": "ok",
+  "gen_dur": 0.882,
+  "slot_dur": 0.88,
+  "ratio": 1.003,
+  "df_used": 0.77
+ },
+ {
+  "id": "V7-016",
+  "status": "ok",
+  "gen_dur": 1.149,
+  "slot_dur": 1.18,
+  "ratio": 0.974,
+  "df_used": 0.66
+ },
+ {
+  "id": "V7-017",
+  "status": "ok",
+  "gen_dur": 1.242,
+  "slot_dur": 1.24,
+  "ratio": 1.002,
+  "df_used": 0.59
+ },
+ {
+  "id": "V7-018",
+  "status": "ok",
+  "gen_dur": 2.148,
+  "slot_dur": 2.02,
+  "ratio": 1.063
+ },
+ {
+  "id": "V7-019",
+  "status": "ok",
+  "gen_dur": 0.685,
+  "slot_dur": 0.68,
+  "ratio": 1.007,
+  "df_used": 0.78
+ },
+ {
+  "id": "V7-020",
+  "status": "ok",
+  "gen_dur": 0.592,
+  "slot_dur": 0.66,
+  "ratio": 0.897,
+  "df_used": 0.79
+ },
+ {
+  "id": "V7-021",
+  "status": "ok",
+  "gen_dur": 0.848,
+  "slot_dur": 0.82,
+  "ratio": 1.034,
+  "df_used": 0.79
+ },
+ {
+  "id": "V7-022",
+  "status": "ok",
+  "gen_dur": 1.057,
+  "slot_dur": 0.98,
+  "ratio": 1.078,
+  "df_used": 0.92
+ },
+ {
+  "id": "V7-023",
+  "status": "ok",
+  "gen_dur": 1.335,
+  "slot_dur": 1.42,
+  "ratio": 0.94,
+  "df_used": 0.73
+ },
+ {
+  "id": "V7-024",
+  "status": "ok",
+  "gen_dur": 0.906,
+  "slot_dur": 0.94,
+  "ratio": 0.963,
+  "df_used": 0.91
+ },
+ {
+  "id": "V7-025",
+  "status": "ok",
+  "gen_dur": 2.206,
+  "slot_dur": 2.2,
+  "ratio": 1.003,
+  "df_used": 0.85
+ },
+ {
+  "id": "V7-027",
+  "status": "ok",
+  "gen_dur": 1.289,
+  "slot_dur": 1.32,
+  "ratio": 0.976,
+  "df_used": 0.85
+ },
+ {
+  "id": "V7-028",
+  "status": "ok",
+  "gen_dur": 0.952,
+  "slot_dur": 0.98,
+  "ratio": 0.971,
+  "df_used": 0.8
+ },
+ {
+  "id": "V7-029",
+  "status": "ok",
+  "gen_dur": 1.474,
+  "slot_dur": 1.52,
+  "ratio": 0.97
+ },
+ {
+  "id": "V7-030",
+  "status": "ok",
+  "gen_dur": 1.881,
+  "slot_dur": 1.96,
+  "ratio": 0.96,
+  "df_used": 0.91
+ },
+ {
+  "id": "V7-031",
+  "status": "ok",
+  "gen_dur": 0.871,
+  "slot_dur": 1.02,
+  "ratio": 0.854,
+  "df_used": 0.73
+ },
+ {
+  "id": "V7-032",
+  "status": "ok",
+  "gen_dur": 1.347,
+  "slot_dur": 1.38,
+  "ratio": 0.976
+ },
+ {
+  "id": "V7-033",
+  "status": "ok",
+  "gen_dur": 0.731,
+  "slot_dur": 0.66,
+  "ratio": 1.108,
+  "df_used": 0.62
+ },
+ {
+  "id": "V7-034",
+  "status": "ok",
+  "gen_dur": 0.987,
+  "slot_dur": 0.92,
+  "ratio": 1.073,
+  "df_used": 0.89
+ },
+ {
+  "id": "V7-035",
+  "status": "ok",
+  "gen_dur": 0.453,
+  "slot_dur": 0.46,
+  "ratio": 0.984,
+  "df_used": 0.61
+ },
+ {
+  "id": "V7-036",
+  "status": "ok",
+  "gen_dur": 0.894,
+  "slot_dur": 0.76,
+  "ratio": 1.176,
+  "df_used": 0.83
+ },
+ {
+  "id": "V7-037",
+  "status": "ok",
+  "gen_dur": 0.441,
+  "slot_dur": 0.42,
+  "ratio": 1.05,
+  "df_used": 0.59
+ },
+ {
+  "id": "V7-038",
+  "status": "ok",
+  "gen_dur": 0.534,
+  "slot_dur": 0.56,
+  "ratio": 0.954,
+  "df_used": 0.79
+ },
+ {
+  "id": "V7-039",
+  "status": "ok",
+  "gen_dur": 1.022,
+  "slot_dur": 1.12,
+  "ratio": 0.912,
+  "df_used": 0.8
+ },
+ {
+  "id": "V7-040",
+  "status": "ok",
+  "gen_dur": 0.43,
+  "slot_dur": 0.48,
+  "ratio": 0.895,
+  "df_used": 0.55
+ },
+ {
+  "id": "V7-041",
+  "status": "ok",
+  "gen_dur": 0.836,
+  "slot_dur": 0.76,
+  "ratio": 1.1
+ },
+ {
+  "id": "V7-042",
+  "status": "ok",
+  "gen_dur": 0.337,
+  "slot_dur": 0.34,
+  "ratio": 0.99,
+  "df_used": 0.57
+ },
+ {
+  "id": "V7-043",
+  "status": "ok",
+  "gen_dur": 0.592,
+  "slot_dur": 0.6,
+  "ratio": 0.987,
+  "df_used": 0.65
+ },
+ {
+  "id": "V7-044",
+  "status": "ok",
+  "gen_dur": 0.952,
+  "slot_dur": 0.94,
+  "ratio": 1.013,
+  "df_used": 0.53
+ },
+ {
+  "id": "V7-045",
+  "status": "ok",
+  "gen_dur": 1.022,
+  "slot_dur": 1.06,
+  "ratio": 0.964,
+  "df_used": 0.68
+ },
+ {
+  "id": "V7-046",
+  "status": "ok",
+  "gen_dur": 0.801,
+  "slot_dur": 0.9,
+  "ratio": 0.89,
+  "df_used": 0.84
+ },
+ {
+  "id": "V7-047",
+  "status": "ok",
+  "gen_dur": 0.557,
+  "slot_dur": 0.56,
+  "ratio": 0.995,
+  "df_used": 0.74
+ },
+ {
+  "id": "V7-048",
+  "status": "ok",
+  "gen_dur": 0.673,
+  "slot_dur": 0.7,
+  "ratio": 0.962,
+  "df_used": 0.59
+ },
+ {
+  "id": "V7-049",
+  "status": "ok",
+  "gen_dur": 0.673,
+  "slot_dur": 0.7,
+  "ratio": 0.962
+ },
+ {
+  "id": "V7-050",
+  "status": "ok",
+  "gen_dur": 0.731,
+  "slot_dur": 0.7,
+  "ratio": 1.045,
+  "df_used": 0.8
+ },
+ {
+  "id": "V7-052",
+  "status": "ok",
+  "gen_dur": 1.347,
+  "slot_dur": 1.3,
+  "ratio": 1.036
+ },
+ {
+  "id": "V7-053",
+  "status": "ok",
+  "gen_dur": 0.441,
+  "slot_dur": 0.44,
+  "ratio": 1.003,
+  "df_used": 0.62
+ },
+ {
+  "id": "V7-054",
+  "status": "ok",
+  "gen_dur": 0.604,
+  "slot_dur": 0.6,
+  "ratio": 1.006,
+  "df_used": 0.76
+ },
+ {
+  "id": "V7-055",
+  "status": "ok",
+  "gen_dur": 0.418,
+  "slot_dur": 0.38,
+  "ratio": 1.1,
+  "df_used": 0.5
+ },
+ {
+  "id": "V7-056",
+  "status": "ok",
+  "gen_dur": 0.755,
+  "slot_dur": 0.72,
+  "ratio": 1.048
+ },
+ {
+  "id": "V7-057",
+  "status": "ok",
+  "gen_dur": 1.01,
+  "slot_dur": 1.06,
+  "ratio": 0.953,
+  "df_used": 0.65
+ },
+ {
+  "id": "V7-058",
+  "status": "ok",
+  "gen_dur": 2.31,
+  "slot_dur": 2.3,
+  "ratio": 1.005
+ },
+ {
+  "id": "V7-061",
+  "status": "ok",
+  "gen_dur": 2.694,
+  "slot_dur": 2.64,
+  "ratio": 1.02,
+  "df_used": 0.72
+ },
+ {
+  "id": "V7-062",
+  "status": "ok",
+  "gen_dur": 1.219,
+  "slot_dur": 1.4,
+  "ratio": 0.871,
+  "df_used": 0.88
+ },
+ {
+  "id": "V7-063",
+  "status": "ok",
+  "gen_dur": 1.033,
+  "slot_dur": 1.06,
+  "ratio": 0.975,
+  "df_used": 0.7
+ },
+ {
+  "id": "V7-064",
+  "status": "ok",
+  "gen_dur": 1.637,
+  "slot_dur": 1.54,
+  "ratio": 1.063
+ },
+ {
+  "id": "V7-065",
+  "status": "ok",
+  "gen_dur": 0.731,
+  "slot_dur": 0.82,
+  "ratio": 0.892,
+  "df_used": 0.74
+ },
+ {
+  "id": "V7-066",
+  "status": "ok",
+  "gen_dur": 1.939,
+  "slot_dur": 2.04,
+  "ratio": 0.95,
+  "df_used": 0.87
+ },
+ {
+  "id": "V7-067",
+  "status": "ok",
+  "gen_dur": 2.392,
+  "slot_dur": 2.56,
+  "ratio": 0.934
+ },
+ {
+  "id": "V7-068",
+  "status": "ok",
+  "gen_dur": 1.858,
+  "slot_dur": 1.86,
+  "ratio": 0.999,
+  "df_used": 0.82
+ },
+ {
+  "id": "V7-069",
+  "status": "ok",
+  "gen_dur": 1.672,
+  "slot_dur": 1.64,
+  "ratio": 1.019
+ },
+ {
+  "id": "V7-070",
+  "status": "ok",
+  "gen_dur": 1.556,
+  "slot_dur": 1.45,
+  "ratio": 1.073,
+  "df_used": 0.91
+ },
+ {
+  "id": "V7-071",
+  "status": "ok",
+  "gen_dur": 2.426,
+  "slot_dur": 2.51,
+  "ratio": 0.967,
+  "df_used": 0.91
+ },
+ {
+  "id": "V7-072",
+  "status": "ok",
+  "gen_dur": 1.3,
+  "slot_dur": 1.18,
+  "ratio": 1.102,
+  "df_used": 0.8
+ },
+ {
+  "id": "V7-073",
+  "status": "ok",
+  "gen_dur": 3.634,
+  "slot_dur": 3.61,
+  "ratio": 1.007
+ },
+ {
+  "id": "V7-074",
+  "status": "ok",
+  "gen_dur": 0.662,
+  "slot_dur": 0.66,
+  "ratio": 1.003,
+  "df_used": 1.11
+ },
+ {
+  "id": "V7-075",
+  "status": "ok",
+  "gen_dur": 0.836,
+  "slot_dur": 0.84,
+  "ratio": 0.995,
+  "df_used": 0.7
+ }
+]
