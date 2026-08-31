@@ -29,16 +29,16 @@ L2 短语聚合: l2v4_fusion.py 不改代码，只换输入 → slots_v7_demucs.
 ```
 
 关键设计决策：
-- **Demucs 跑本机 CPU**（181s 音频预计 2-5 分钟，不值得占用 PC GPU + 传输）
+- **Demucs 部署到 PC `D:\AI-tool\demucs`**（2026-08-31 用户拍板：项目工具统一 D:\AI-tool 新建目录，禁止散乱；3080 GPU 推理 181s 音频预计 <30s；与 WhisperX 同机闭环，分离→对齐免中间传输）
 - **l2v4_fusion.py 零改动**——验证的就是「预处理收益」单变量
 - 对比指标四件套：槽位数、字流覆盖率、混战区（119-166s）槽粒度、对齐 score 中位
 
 ## 任务分解（Phase 2 plan 蓝本）
 
-1. 本机 pip 安装 demucs（走清华镜像）+ htdemucs 模型下载（HF_ENDPOINT=hf-mirror.com）
-2. tangbohu_16k.wav → vocals.wav 分离，听感抽查
-3. PC 重跑 WhisperX 对齐（v7_probe_align.py 换输入文件）
-4. l2v4_fusion.py 跑双 dump 融合（transcribe_dump 不变 + align_dump_v2）
+1. PC `D:\AI-tool\demucs` 新建目录部署（venv + 清华镜像装包 + HF_ENDPOINT=hf-mirror.com 下 htdemucs 模型，禁止装 C 盘）
+2. tangbohu_16k.wav 传 PC → 分离 vocals.wav（GPU），听感抽查
+3. PC D:\AI-tool\whisperx 重跑 v7_probe_align.py（换输入 vocals.wav）→ align_dump_v2.json
+4. dump 拉回本机，l2v4_fusion.py 跑双 dump 融合（transcribe_dump 不变 + align_dump_v2）
 5. 四指标对比报告 + 更新接力手册 + commit
 
 ## 不做的事（YAGNI）
