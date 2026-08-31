@@ -1,3 +1,19 @@
+
+# 视频/音频大类不入仓（2026-08-31 用户拍板：视频不推仓库）
+*.mp4
+*.mkv
+*.mov
+*.webm
+*.avi
+*.flv
+*.wmv
+*.m4v
+*.wav
+*.flac
+*.mp3
+# 大中间产物
+research/vocals.wav
+research/no_vocals.wav
 ref/
 test-assets/
 deliveries/*.mp4
