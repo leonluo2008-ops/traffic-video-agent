@@ -1,0 +1,691 @@
+[
+ {
+  "text": "当时那把剑离我的喉咙只有0.01公分，",
+  "clean": "当时那把剑离我的喉咙只有0.01公分",
+  "chars": 18,
+  "strength": "weak",
+  "start": 5.79,
+  "end": 8.99,
+  "dur": 3.2,
+  "b_range": [
+   0,
+   17
+  ],
+  "id": "V8-000",
+  "mode": "tts",
+  "new_text": "其实鱼鳞焊的精髓就在于这几层材质叠加",
+  "spk": "至尊宝",
+  "got_chars": 18,
+  "model": "gemma4:31b-cloud"
+ },
+ {
+  "text": "但是四分之一炷香之后，",
+  "clean": "但是四分之一炷香之后",
+  "chars": 10,
+  "strength": "weak",
+  "start": 8.99,
+  "end": 10.81,
+  "dur": 1.82,
+  "b_range": [
+   18,
+   27
+  ],
+  "id": "V8-001",
+  "gap": {
+   "gap": 0.0,
+   "db": -99.0,
+   "type": "silence"
+  },
+  "mode": "tts",
+  "new_text": "且看我如何操纵这笔刷",
+  "spk": "至尊宝",
+  "got_chars": 10,
+  "model": "gemma4:31b-cloud"
+ },
+ {
+  "text": "那把剑的女主人，将会彻底的爱上我。",
+  "clean": "那把剑的女主人将会彻底的爱上我",
+  "chars": 15,
+  "strength": "strong",
+  "start": 10.81,
+  "end": 13.94,
+  "dur": 3.12,
+  "b_range": [
+   28,
+   42
+  ],
+  "id": "V8-002",
+  "gap": {
+   "gap": 0.0,
+   "db": -99.0,
+   "type": "silence"
+  },
+  "mode": "tts",
+  "new_text": "在材质图层里新建个普通绘制图层",
+  "spk": "至尊宝",
+  "got_chars": 15,
+  "model": "gemma4:31b-cloud"
+ },
+ {
+  "text": "因为我决定，说一个谎话。",
+  "clean": "因为我决定说一个谎话",
+  "chars": 10,
+  "strength": "strong",
+  "start": 13.94,
+  "end": 16.1,
+  "dur": 2.16,
+  "b_range": [
+   43,
+   52
+  ],
+  "id": "V8-003",
+  "gap": {
+   "gap": 0.0,
+   "db": -99.0,
+   "type": "silence"
+  },
+  "mode": "tts",
+  "new_text": "此道真谛我已悉数掌握",
+  "spk": "至尊宝",
+  "got_chars": 10,
+  "model": "gemma4:31b-cloud"
+ },
+ {
+  "text": "虽然本人生平说了无数的谎话，",
+  "clean": "虽然本人生平说了无数的谎话",
+  "chars": 13,
+  "strength": "weak",
+  "start": 16.1,
+  "end": 18.22,
+  "dur": 2.12,
+  "b_range": [
+   53,
+   65
+  ],
+  "id": "V8-004",
+  "gap": {
+   "gap": 0.0,
+   "db": -99.0,
+   "type": "silence"
+  },
+  "mode": "tts",
+  "new_text": "先在图层面板新建个绘制图层",
+  "spk": "至尊宝",
+  "got_chars": 13,
+  "model": "gemma4:31b-cloud"
+ },
+ {
+  "text": "但是这一个，我认为是最完美的。",
+  "clean": "但是这一个我认为是最完美的",
+  "chars": 13,
+  "strength": "strong",
+  "start": 18.22,
+  "end": 22.44,
+  "dur": 4.22,
+  "b_range": [
+   66,
+   78
+  ],
+  "id": "V8-005",
+  "gap": {
+   "gap": 0.0,
+   "db": -99.0,
+   "type": "silence"
+  },
+  "mode": "tts",
+  "new_text": "快去下方列表自带神兵任你挑",
+  "spk": "至尊宝",
+  "got_chars": 13,
+  "model": "deepseek-v4-flash:0731"
+ },
+ {
+  "text": "你再往前半步，我就把你给杀了。",
+  "clean": "你再往前半步我就把你给杀了",
+  "chars": 13,
+  "strength": "strong",
+  "start": 22.44,
+  "end": 25.18,
+  "dur": 2.74,
+  "b_range": [
+   79,
+   91
+  ],
+  "id": "V8-006",
+  "gap": {
+   "gap": 0.0,
+   "db": -99.0,
+   "type": "silence"
+  },
+  "mode": "tts",
+  "new_text": "形态不对你倒是说清楚咋改啊",
+  "spk": "紫霞",
+  "got_chars": 13,
+  "model": "deepseek-v4-flash:0731"
+ },
+ {
+  "text": "你应该这么做，我也应该死。",
+  "clean": "你应该这么做我也应该死",
+  "chars": 11,
+  "strength": "strong",
+  "start": 25.18,
+  "end": 28.77,
+  "dur": 3.58,
+  "b_range": [
+   92,
+   102
+  ],
+  "id": "V8-007",
+  "gap": {
+   "gap": 0.0,
+   "db": -99.0,
+   "type": "silence"
+  },
+  "mode": "tts",
+  "new_text": "先新建普通层才见真功夫",
+  "spk": "至尊宝",
+  "got_chars": 11,
+  "model": "deepseek-v4-flash:0731"
+ },
+ {
+  "text": "曾经有一份真诚的爱情放在我面前，",
+  "clean": "曾经有一份真诚的爱情放在我面前",
+  "chars": 15,
+  "strength": "weak",
+  "start": 30.73,
+  "end": 34.59,
+  "dur": 3.86,
+  "b_range": [
+   103,
+   117
+  ],
+  "id": "V8-008",
+  "gap": {
+   "gap": 1.96,
+   "db": -29.8,
+   "type": "continuous"
+  },
+  "mode": "tts",
+  "new_text": "且在下方列表挑选趁手的鱼鳞笔刷",
+  "spk": "至尊宝",
+  "got_chars": 15,
+  "model": "gemma4:31b-cloud"
+ },
+ {
+  "text": "我没有珍惜。",
+  "clean": "我没有珍惜",
+  "chars": 5,
+  "strength": "strong",
+  "start": 34.59,
+  "end": 36.63,
+  "dur": 2.04,
+  "b_range": [
+   118,
+   122
+  ],
+  "id": "V8-009",
+  "gap": {
+   "gap": 0.0,
+   "db": -99.0,
+   "type": "silence"
+  },
+  "mode": "tts",
+  "new_text": "速挑趁手款",
+  "spk": "至尊宝",
+  "got_chars": 5,
+  "model": "gemma4:31b-cloud"
+ },
+ {
+  "text": "等我失去的时候，我才后悔莫及。",
+  "clean": "等我失去的时候我才后悔莫及",
+  "chars": 13,
+  "strength": "strong",
+  "start": 36.63,
+  "end": 42.23,
+  "dur": 5.6,
+  "b_range": [
+   123,
+   135
+  ],
+  "id": "V8-010",
+  "gap": {
+   "gap": 0.0,
+   "db": -99.0,
+   "type": "silence"
+  },
+  "mode": "tts",
+  "new_text": "挑中这款鱼鳞笔刷涂一遍就行",
+  "spk": "至尊宝",
+  "got_chars": 13,
+  "model": "deepseek-v4-flash:0731"
+ },
+ {
+  "text": "人世间最痛苦的事，莫过于此。",
+  "clean": "人世间最痛苦的事莫过于此",
+  "chars": 12,
+  "strength": "strong",
+  "start": 42.23,
+  "end": 47.02,
+  "dur": 4.78,
+  "b_range": [
+   136,
+   147
+  ],
+  "id": "V8-011",
+  "gap": {
+   "gap": 0.0,
+   "db": -99.0,
+   "type": "silence"
+  },
+  "mode": "tts",
+  "new_text": "选中趁手笔刷描画即可搞定",
+  "spk": "至尊宝",
+  "got_chars": 12,
+  "model": "deepseek-v4-flash:0731"
+ },
+ {
+  "text": "你的宝剑在我的咽喉上割下去吧，",
+  "clean": "你的宝剑在我的咽喉上割下去吧",
+  "chars": 14,
+  "strength": "weak",
+  "start": 47.02,
+  "end": 50.56,
+  "dur": 3.54,
+  "b_range": [
+   148,
+   161
+  ],
+  "id": "V8-012",
+  "gap": {
+   "gap": 0.0,
+   "db": -99.0,
+   "type": "silence"
+  },
+  "mode": "tts",
+  "new_text": "顺着焊缝走向涂画便能速成此技",
+  "spk": "至尊宝",
+  "got_chars": 14,
+  "model": "gemma4:31b-cloud"
+ },
+ {
+  "text": "不用再犹豫了。",
+  "clean": "不用再犹豫了",
+  "chars": 6,
+  "strength": "strong",
+  "start": 50.56,
+  "end": 54.52,
+  "dur": 3.96,
+  "b_range": [
+   162,
+   167
+  ],
+  "id": "V8-013",
+  "gap": {
+   "gap": 0.0,
+   "db": -99.0,
+   "type": "silence"
+  },
+  "mode": "tts",
+  "new_text": "描一道便成了",
+  "spk": "至尊宝",
+  "got_chars": 6,
+  "model": "deepseek-v4-flash:0731"
+ },
+ {
+  "text": "如果上天能够给我一个再来一次的机会，",
+  "clean": "如果上天能够给我一个再来一次的机会",
+  "chars": 17,
+  "strength": "weak",
+  "start": 54.52,
+  "end": 58.5,
+  "dur": 3.98,
+  "b_range": [
+   168,
+   184
+  ],
+  "id": "V8-014",
+  "gap": {
+   "gap": 0.0,
+   "db": -99.0,
+   "type": "silence"
+  },
+  "mode": "tts",
+  "new_text": "你只需拿笔刷顺着焊缝轻轻涂上一遍呀",
+  "spk": "至尊宝",
+  "got_chars": 17,
+  "model": "deepseek-v4-flash:0731"
+ },
+ {
+  "text": "我会对那个女孩子说三个字。",
+  "clean": "我会对那个女孩子说三个字",
+  "chars": 12,
+  "strength": "strong",
+  "start": 58.5,
+  "end": 60.3,
+  "dur": 1.8,
+  "b_range": [
+   185,
+   196
+  ],
+  "id": "V8-015",
+  "gap": {
+   "gap": 0.0,
+   "db": -99.0,
+   "type": "silence"
+  },
+  "mode": "tts",
+  "new_text": "轻按此键焊道即刻顺滑如丝",
+  "spk": "至尊宝",
+  "got_chars": 12,
+  "model": "deepseek-v4-flash:0731"
+ },
+ {
+  "text": "如果非要在这份爱上加个期限，",
+  "clean": "如果非要在这份爱上加个期限",
+  "chars": 13,
+  "strength": "weak",
+  "start": 66.59,
+  "end": 72.6,
+  "dur": 6.0,
+  "b_range": [
+   197,
+   209
+  ],
+  "id": "V8-016",
+  "gap": {
+   "gap": 6.29,
+   "db": -21.4,
+   "type": "continuous"
+  },
+  "mode": "tts",
+  "new_text": "若想调好右侧形状颜色与疏密",
+  "spk": "至尊宝",
+  "got_chars": 13,
+  "model": "gemma4:31b-cloud"
+ },
+ {
+  "text": "我希望是一万年。",
+  "clean": "我希望是一万年",
+  "chars": 7,
+  "strength": "strong",
+  "start": 72.6,
+  "end": 87.89,
+  "dur": 15.29,
+  "b_range": [
+   210,
+   216
+  ],
+  "id": "V8-017",
+  "gap": {
+   "gap": 0.0,
+   "db": -99.0,
+   "type": "silence"
+  },
+  "mode": "keep_original",
+  "new_text": "我希望是一万年",
+  "spk": ""
+ },
+ {
+  "text": "那么你，怎么向你的娘子交代？",
+  "clean": "那么你怎么向你的娘子交代",
+  "chars": 12,
+  "strength": "strong",
+  "start": 87.89,
+  "end": 90.25,
+  "dur": 2.36,
+  "b_range": [
+   217,
+   228
+  ],
+  "id": "V8-018",
+  "gap": {
+   "gap": 0.0,
+   "db": -99.0,
+   "type": "silence"
+  },
+  "mode": "tts",
+  "new_text": "可你画得歪歪扭扭怎么修补",
+  "spk": "紫霞",
+  "got_chars": 12,
+  "model": "gemma4:31b-cloud"
+ },
+ {
+  "text": "所以我一定要拿回那个月光宝盒，",
+  "clean": "所以我一定要拿回那个月光宝盒",
+  "chars": 14,
+  "strength": "weak",
+  "start": 93.29,
+  "end": 95.27,
+  "dur": 1.98,
+  "b_range": [
+   229,
+   242
+  ],
+  "id": "V8-019",
+  "gap": {
+   "gap": 3.04,
+   "db": -21.0,
+   "type": "continuous"
+  },
+  "mode": "tts",
+  "new_text": "速将右侧属性数值调至极致精细",
+  "spk": "至尊宝",
+  "got_chars": 14,
+  "model": "gemma4:31b-cloud"
+ },
+ {
+  "text": "带你一起回去跟他们说清楚。",
+  "clean": "带你一起回去跟他们说清楚",
+  "chars": 12,
+  "strength": "strong",
+  "start": 95.27,
+  "end": 99.47,
+  "dur": 4.2,
+  "b_range": [
+   243,
+   254
+  ],
+  "id": "V8-020",
+  "gap": {
+   "gap": 0.0,
+   "db": -99.0,
+   "type": "silence"
+  },
+  "mode": "tts",
+  "new_text": "带你切换参数调出各种焊缝",
+  "spk": "至尊宝",
+  "got_chars": 12,
+  "model": "gemma4:31b-cloud"
+ },
+ {
+  "text": "我不管别人怎么说，我，",
+  "clean": "我不管别人怎么说我",
+  "chars": 9,
+  "strength": "weak",
+  "start": 99.47,
+  "end": 102.14,
+  "dur": 2.66,
+  "b_range": [
+   255,
+   263
+  ],
+  "id": "V8-021",
+  "gap": {
+   "gap": 0.0,
+   "db": -99.0,
+   "type": "silence"
+  },
+  "mode": "tts",
+  "new_text": "参数多调焊缝样式全",
+  "spk": "至尊宝",
+  "got_chars": 9,
+  "model": "deepseek-v4-flash:0731"
+ },
+ {
+  "text": "我也不怕后世会有千千万万的人对我唾骂。",
+  "clean": "我也不怕后世会有千千万万的人对我唾骂",
+  "chars": 18,
+  "strength": "strong",
+  "start": 102.14,
+  "end": 108.0,
+  "dur": 5.86,
+  "b_range": [
+   264,
+   281
+  ],
+  "id": "V8-022",
+  "gap": {
+   "gap": 0.0,
+   "db": -99.0,
+   "type": "silence"
+  },
+  "mode": "tts",
+  "new_text": "只要掌握这套参数便可做出顶级金属质感",
+  "spk": "至尊宝",
+  "got_chars": 18,
+  "model": "gemma4:31b-cloud"
+ },
+ {
+  "text": "我一个人承担下来。",
+  "clean": "我一个人承担下来",
+  "chars": 8,
+  "strength": "strong",
+  "start": 108.0,
+  "end": 111.38,
+  "dur": 3.38,
+  "b_range": [
+   282,
+   289
+  ],
+  "id": "V8-023",
+  "gap": {
+   "gap": 0.0,
+   "db": -99.0,
+   "type": "silence"
+  },
+  "mode": "tts",
+  "new_text": "参数切遍焊缝百变",
+  "spk": "至尊宝",
+  "got_chars": 8,
+  "model": "deepseek-v4-flash:0731"
+ },
+ {
+  "text": "你不骗我吧？",
+  "clean": "你不骗我吧",
+  "chars": 5,
+  "strength": "strong",
+  "start": 111.38,
+  "end": 113.23,
+  "dur": 1.84,
+  "b_range": [
+   290,
+   294
+  ],
+  "id": "V8-024",
+  "gap": {
+   "gap": 0.0,
+   "db": -99.0,
+   "type": "silence"
+  },
+  "mode": "tts",
+  "new_text": "画得太歪了",
+  "spk": "紫霞",
+  "got_chars": 5,
+  "model": "gemma4:31b-cloud"
+ },
+ {
+  "text": "但是我痛恨我自己没有本事，",
+  "clean": "但是我痛恨我自己没有本事",
+  "chars": 12,
+  "strength": "weak",
+  "start": 113.23,
+  "end": 116.81,
+  "dur": 3.58,
+  "b_range": [
+   295,
+   306
+  ],
+  "id": "V8-025",
+  "gap": {
+   "gap": 0.0,
+   "db": -99.0,
+   "type": "silence"
+  },
+  "mode": "tts",
+  "new_text": "只要想做就能搞定所有效果",
+  "spk": "至尊宝",
+  "got_chars": 12,
+  "model": "gemma4:31b-cloud"
+ },
+ {
+  "text": "拿回那个月光宝盒。",
+  "clean": "拿回那个月光宝盒",
+  "chars": 8,
+  "strength": "strong",
+  "start": 116.81,
+  "end": 117.97,
+  "dur": 1.16,
+  "b_range": [
+   307,
+   314
+  ],
+  "id": "V8-026",
+  "gap": {
+   "gap": 0.0,
+   "db": -99.0,
+   "type": "silence"
+  },
+  "mode": "tts",
+  "new_text": "关注我解锁建模课",
+  "spk": "至尊宝",
+  "got_chars": 8,
+  "model": "gemma4:31b-cloud"
+ },
+ {
+  "text": "我，我帮你。",
+  "clean": "我我帮你",
+  "chars": 4,
+  "strength": "strong",
+  "start": 119.43,
+  "end": 121.12,
+  "dur": 1.68,
+  "b_range": [
+   315,
+   318
+  ],
+  "id": "V8-027",
+  "gap": {
+   "gap": 1.46,
+   "db": -17.2,
+   "type": "continuous"
+  },
+  "mode": "tts",
+  "new_text": "怎么调它",
+  "spk": "紫霞",
+  "got_chars": 4,
+  "model": "gemma4:31b-cloud"
+ },
+ {
+  "text": "不要太危险了，你不想想。",
+  "clean": "不要太危险了你不想想",
+  "chars": 10,
+  "strength": "strong",
+  "start": 121.12,
+  "end": 125.97,
+  "dur": 4.86,
+  "b_range": [
+   319,
+   328
+  ],
+  "id": "V8-028",
+  "gap": {
+   "gap": 0.0,
+   "db": -99.0,
+   "type": "silence"
+  },
+  "mode": "tts",
+  "new_text": "想出神级效果得懂逻辑",
+  "spk": "至尊宝",
+  "got_chars": 10,
+  "model": "gemma4:31b-cloud"
+ }
+]
